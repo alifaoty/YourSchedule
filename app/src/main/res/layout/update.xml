@@ -24,7 +24,7 @@
             android:layout_marginLeft="20dp"
             android:gravity="top"
             android:text="Update"
-            android:textAppearance="Description"
+            android:textColor="#476072"
             android:textSize="25dp" />
 
 
@@ -52,7 +52,7 @@
                 android:layout_marginTop="25dp"
                 android:gravity="center"
                 android:hint="Update todo from. . ."
-                android:textAppearance="Create"/>
+                android:textColor="#80000000"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -66,7 +66,7 @@
         android:layout_marginLeft="100dp"
         android:gravity="top"
         android:text="What your schedule?"
-        android:textAppearance="Description"
+        android:textColor="334257"
         android:textSize="25dp" />
 
     <LinearLayout
@@ -90,11 +90,11 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
                 android:gravity="center"
-                android:hint="to todo. . ."
-                android:textAppearance="Create"/>
+                android:hint="schedule. . ."
+                android:textColor="#80000000"/>
 
             <Button
-                android:id="@+id/update_button"
+                android:id="@+id/update"
                 android:layout_width="114dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -103,8 +103,8 @@
                 android:layout_marginTop="15dp"
                 android:elevation="3dp"
                 android:gravity="center"
-                android:text="Update Button"
-                android:textAppearance="Update Button"
+                android:text="Update "
+                android:textColor="#DDDDDD"
                 app:backgroundTint="#7C7C7C" />
         </LinearLayout>
     </LinearLayout>
