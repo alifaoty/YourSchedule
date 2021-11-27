@@ -64,7 +64,7 @@
                 android:layout_marginTop="30dp"
                 android:elevation="3dp"
                 android:gravity="center"
-                android:text="Delete Button"
+                android:text="DELETE"
                 android:textAppearance="Delete Button"
                 app:backgroundTint="#7C7C7C" />
         </LinearLayout>
