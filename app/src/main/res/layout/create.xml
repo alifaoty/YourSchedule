@@ -23,7 +23,7 @@
             android:layout_marginTop="62dp"
             android:gravity="top"
             android:text="Schedule"
-            android:textAppearance="Schedule"
+            android:textAppearance="@style/Desc"
             android:textSize="25dp" />
 
 
@@ -63,9 +63,11 @@
                 android:layout_marginTop="30dp"
                 android:elevation="3dp"
                 android:gravity="center"
-                android:text="Create Button"
-                android:textAppearance="Create Button"
-                app:backgroundTint="#7C7C7C" />
+                android:text="Create"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#000000"
+                app:iconTint="#FFFFFF"
+                app:rippleColor="#FFFFFF" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
